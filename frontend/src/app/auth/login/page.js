@@ -3,14 +3,16 @@ export default function Login() {
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-4">
             <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-10">
                 <h2 className="text-2xl font-bold mb-8 text-center text-gray-800">Login</h2>
-                <form method="POST" className="space-y-6">
+                <form method="POST" action="http://localhost:9000/api/v1/user/login" className="space-y-6">
                     <input
                         type="email"
+                        name="email"
                         placeholder="Enter your email"
                         className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 text-black"
                     />
                     <input
                         type="password"
+                        name="password"
                         placeholder="Enter your password"
                         className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 text-black"
                     />
