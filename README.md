@@ -113,7 +113,7 @@ Please add a license if you intend to open-source it.
 For any questions or feedback, feel free to reach out:
 
 * **GitHub**: [@Yamraj-dev](https://github.com/Yamraj-dev)
-* **Email**: [your-email@example.com](mailto:prathameshmonde.pm@gmail.com) *(replace with your actual email)*
+* **Email**: [@Prathamesh-Monde](prathameshmonde.pm@gmail.com) 
 
 ---
 
