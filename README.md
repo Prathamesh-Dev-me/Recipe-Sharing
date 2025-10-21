@@ -101,7 +101,7 @@ Recipe-Sharing/
 
 🚧 **Currently in Development**
 
-This project is actively being developed. Expect updates, changes in structure, and new features being added regularly.
+This project is actively being developed. Expect updates, changes in structure, and new features being added.
 
 ## License
 
