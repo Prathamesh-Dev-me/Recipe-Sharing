@@ -56,7 +56,7 @@ export const getHeroMeals = asyncHandler(async (req, res) => {
 });
 
 export const searchFood = asyncHandler(async (req, res) => {
-    const { meal_name } = req.body;
+    const { meal_name } = req.params;
     const meals = [];
 
     if (!meal_name) {

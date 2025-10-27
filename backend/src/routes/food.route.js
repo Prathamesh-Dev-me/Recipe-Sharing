@@ -5,7 +5,7 @@ import { verifyjwt } from "../middleware/auth.middleware.js";
 const router = express.Router();
 
 router.get("/random-food", getHeroMeals);
-router.post("/search", searchFood);
+router.get("/search/:meal_name", searchFood);
 router.get("/category", category);
 
 export default router;
